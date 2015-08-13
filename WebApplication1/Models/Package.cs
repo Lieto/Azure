@@ -15,5 +15,6 @@ namespace WebApplication1.Models
         public double Units { get; set; }
         public int StatusCode { get; set; }
         public DateTime Created { get; set; }
+        public int Test { get; set;  }
     }
 }
