@@ -42,29 +42,29 @@ namespace WebApplication1.Controllers
                     Weight = 2.5,
                     Created = DateTime.UtcNow,
                 },
-new Package
-{
-Id = 2,
-AccountNumber = Guid.NewGuid(),
-Origin = "AZ",
-Destination = "AL",
-StatusCode = 1,
-Units = 2,
-Weight = 1,
-Created = DateTime.UtcNow.AddDays(-2),
-},
-new Package
-{
-    Id = 3,
-AccountNumber = Guid.NewGuid(),
-Origin = "FL",
-Destination = "GA",
-StatusCode = 3,
-Units = 1,
-Weight = 2.5,
-Created = DateTime.UtcNow,
-}
-};
-}
+                new Package
+                {
+                    Id = 2,
+                    AccountNumber = Guid.NewGuid(),
+                    Origin = "AZ",
+                    Destination = "AL",
+                    StatusCode = 1,
+                    Units = 2,
+                    Weight = 1,
+                    Created = DateTime.UtcNow.AddDays(-2),
+                },
+                new Package
+                {
+                    Id = 3,
+                    AccountNumber = Guid.NewGuid(),
+                    Origin = "FL",
+                    Destination = "GA",
+                    StatusCode = 3,
+                    Units = 1,
+                    Weight = 2.5,
+                    Created = DateTime.UtcNow,
+                }
+            };
+        }
     }
 }
